@@ -6,12 +6,10 @@ public class ThrowException {
 
         System.out.print("Enter input: ");
         String inputPassed = scan.nextLine();
-        if (inputPassed.equals("input")){
-            System.out.println("Input valid");
-        }
-        else {
-            throw new NumberFormatException("Input invalid");
-        }
-
+        int x = Integer.parseInt(inputPassed);
+        System.out.println(x);
+        throw new NumberFormatException("Input invalid");
     }
+
 }
+
