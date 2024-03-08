@@ -1,0 +1,2 @@
+ini line pertama
+ini line ketiga
