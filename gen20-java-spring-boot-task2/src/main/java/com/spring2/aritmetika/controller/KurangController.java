@@ -1,6 +1,6 @@
 package com.spring2.aritmetika.controller;
 
-import com.spring2.aritmetika.odt.Input;
+import com.spring2.aritmetika.dto.Input;
 import com.spring2.aritmetika.service.KurangService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

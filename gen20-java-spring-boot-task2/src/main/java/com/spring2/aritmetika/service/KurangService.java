@@ -1,6 +1,6 @@
 package com.spring2.aritmetika.service;
 
-import com.spring2.aritmetika.odt.Input;
+import com.spring2.aritmetika.dto.Input;
 import org.springframework.stereotype.Service;
 
 @Service
