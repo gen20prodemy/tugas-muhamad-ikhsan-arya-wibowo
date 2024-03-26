@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.3/css/bootstrap.css">
+    <title>Products</title>
+</head>
+<body>
+<div class="container mt-5">
+    <table class="table">
+        <thead class="table-header table-primary">
+        <tr>
+            <th>Id</th>
+            <th>Product Name</th>
+            <th>Stock</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody class="table-striped-columns">
+        <tr th:each ="products : ${products} ">
+            <td th:text ="${products.id}"></td>
+            <td th:text ="${products.name}"></td>
+            <td th:text ="${products.stock}"></td>
+            <td th:text ="${products.price}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="webjars/bootstrap/5.3.3/js/bootstrap.bundle.js"></script>
+</body>
+</html>
